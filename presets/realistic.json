@@ -1,5 +1,5 @@
 {
-    "default_model": "epicVisionB4-inpainting.safetensors",
+    "default_model": "cyberrealisticPony_v85.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -29,7 +29,7 @@
             1.0
         ]
     ],
-    "default_cfg_scale": 7.5,
+    "default_cfg_scale": 5.0,
     "default_sample_sharpness": 2.0,
     "default_sampler": "DPM++ 2M SDE Heun",
     "default_scheduler": "karras",
@@ -44,11 +44,11 @@
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "epicVisionB4-inpainting.safetensors": "https://huggingface.co/phoenix-1708/MAJIC/resolve/main/epicVisionB4-inpainting.safetensors"
+        "cyberrealisticPony_v85.safetensors": "https://civitai.com/api/download/models/1478064?type=Model&format=SafeTensor&size=pruned&fp=fp16&token=a2fab2bb78fa416e631f84f42595e62e"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
         "SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors": "https://huggingface.co/mashb1t/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors"
     },
-    "previous_default_models": ["epicVisionB4-inpainting.safetensors"]
+    "previous_default_models": ["cyberrealisticPony_v85.safetensors"]
 }
