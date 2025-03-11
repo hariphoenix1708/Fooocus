@@ -1,5 +1,5 @@
 {
-    "default_model": "realisticStockPhoto_v20.safetensors",
+    "default_model": "epicVisionB4-inpainting.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -29,13 +29,13 @@
             1.0
         ]
     ],
-    "default_cfg_scale": 3.0,
+    "default_cfg_scale": 7.5,
     "default_sample_sharpness": 2.0,
-    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_sampler": "DPM++ 2M SDE Heun",
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "",
-    "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
+    "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label, censored, distorted, low resolution, low quality, funny, unsymmetrical, abs, six packs, muscular body, muscles, loli, flat chest, fat, bad anatomy, lengthy body, imperfect body structure",
     "default_styles": [
         "Fooocus V2",
         "Fooocus Photograph",
@@ -44,11 +44,11 @@
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "realisticStockPhoto_v20.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v20.safetensors"
+        "epicVisionB4-inpainting.safetensors": "https://huggingface.co/phoenix-1708/MAJIC/resolve/main/epicVisionB4-inpainting.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
         "SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors": "https://huggingface.co/mashb1t/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors"
     },
-    "previous_default_models": ["realisticStockPhoto_v10.safetensors"]
+    "previous_default_models": ["epicVisionB4-inpainting.safetensors"]
 }
